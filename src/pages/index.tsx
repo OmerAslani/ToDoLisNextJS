@@ -19,9 +19,7 @@ export default function Home() {
         <div className="h-3/4 w-2/5 bg-tertiary rounded-2xl shadow-xl p-7 flex flex-col">
           <Input  />
           <ul>
-            <li className='w-full h-6 bg-black tex'>Task 1</li>
-            <li className='w-full h-6 bg-black tex'>Task 1</li>
-            <li className='w-full h-6 bg-black tex'>Task 1</li>
+            <li className='w-full h-14 flex items-center pl-4 border-b-2 border-gray-500  '>Task 1</li>
           </ul>
         </div>
         
