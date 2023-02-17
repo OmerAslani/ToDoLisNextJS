@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import { Input } from '@/components/Input'
 import { Task } from '@/components/Task'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,8 +20,10 @@ export default function Home() {
       <main className="bg-gradient-to-br from-primary to-secondary h-screen flex justify-center items-center">
         <div className="h-3/4 w-2/5 bg-tertiary rounded-2xl shadow-xl p-7 flex flex-col">
           <Input  />
+     
           <ul>
             <Task />
+     
           </ul>
         </div>
         
