@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Input } from '@/components/Input'
+import { Task } from '@/components/Task'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function Home() {
         <div className="h-3/4 w-2/5 bg-tertiary rounded-2xl shadow-xl p-7 flex flex-col">
           <Input  />
           <ul>
-            <li className='w-full h-14 flex items-center pl-4 border-b-2 border-gray-500  '>Task 1</li>
+            <Task />
           </ul>
         </div>
         
